@@ -4,31 +4,6 @@ from mmrotate.utils import get_root_logger
 
 
 
-'''
-
-这段代码定义了一个名为 MeanTeacher 的 Hook 类，主要用于实现 Mean Teacher 模型中的 EMA (Exponential Moving Average) 参数更新。该 Hook 在训练过程中的每个迭代后，根据设定的条件进行 EMA 更新。
-
-关键功能和属性：
-
-momentum: EMA 更新的动量参数，用于平滑更新，默认为 0.9996。
-
-interval: EMA 更新的间隔迭代数，每隔 interval 迭代进行一次 EMA 更新。
-
-warm_up: EMA 更新的热身迭代数，表示在前 warm_up 迭代内不进行 EMA 更新。
-
-start_steps: EMA 更新的起始迭代数，从这一步开始进行 EMA 更新。
-
-skip_buffer: 是否跳过模型中的缓冲区（buffer），默认为 True。
-
-主要方法：
-
-before_run: 在训练开始前进行初始化，确保模型中包含了必需的属性，如教师模型和学生模型。
-
-after_train_iter: 在每个训练迭代之后执行 EMA 更新。首先判断是否满足 EMA 更新的条件，然后调用 momentum_update 方法进行参数更新。
-
-momentum_update: 根据指定的动量参数，进行 EMA 更新。更新时可以选择是否跳过模型中的缓冲区，即是否更新缓冲区的参数。
-'''
-
 
 
 

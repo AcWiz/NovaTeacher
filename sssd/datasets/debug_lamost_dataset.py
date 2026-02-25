@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time : 2022/9/30 23:47
-# @Author : WeiHua
-
 from mmrotate.datasets import DOTADataset
 from mmrotate.datasets.builder import ROTATED_DATASETS
 

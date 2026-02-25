@@ -1,5 +1,3 @@
-# Copyright (c) OpenMMLab. All rights reserved.
-# Copied from mmdet, only modified `get_root_logger`.
 import torch
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
 from mmcv.runner import (DistSamplerSeedHook, EpochBasedRunner,

@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time : 2022/9/18 22:19
-# @Author : WeiHua
 import os.path as osp
 
 import torch.distributed as dist

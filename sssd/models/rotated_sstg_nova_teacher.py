@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time : 2022/9/18 17:03
-# @Author : WeiHua
 import json
 import os
 

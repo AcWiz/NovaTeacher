@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time : 2022/9/18 17:03
-# @Author : WeiHua
-
 from mmrotate.models import ROTATED_DETECTORS, RotatedBaseDetector, build_loss
 
 

@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time : 2022/9/18 21:01
-# @Author : WeiHua
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

@@ -18,7 +18,7 @@ Code and Config are now available. You could train DTCG with the following comma
 ```
 sh train.sh
 ```
-Or train the supervised baseline via configs in `./configs/rotated_fcos/`.
+Or train the supervised baseline via configs in `./configs/ssad_fcos/`.
 
 
 

@@ -14,7 +14,7 @@ Additionally, our method competes against other detectors on a natural image dat
 
 
 # Training
-Code and Config are now available. You could train DTCG with the following command:
+Code and Config are now available. You could train NovaTeacher with the following command:
 ```
 sh train.sh
 ```

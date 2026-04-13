@@ -10,6 +10,8 @@ It integrates source light enhancement module, confidence-guided pseudo-supervis
 Extensive experiments on LAMOST-DET show that, Nova Teacher consistently improves previous competitors by 4.04\% and 5.22\% mAP under two semi-supervised settings.
 Additionally, our method competes against other detectors on a natural image dataset, validating its generalization ability to various scenarios.
 
+[![LAMOST-DET Dataset](https://img.shields.io/badge/Download-LAMOST--DET-brightgreen)](https://pan.baidu.com/s/1Fm2-ZkqaPV48edHWKtS6mg?pwd=v3ms)
+
 ![intro](figs/pipeline.png)
 
 
@@ -18,7 +20,7 @@ Code and Config are now available. You could train NovaTeacher with the followin
 ```
 sh train.sh
 ```
-Or train the supervised baseline via configs in `./configs/ssad_fcos/`.
+Or train the supervised baseline via configs in `./configs/ssad_fcos_lamost/`.
 
 
 

@@ -1,6 +1,8 @@
 # NovaTeacher
 Official code of paper- Semi-supervised Source Detection in Astronomical Images: New Benchmark and Strong Baseline
-[![LAMOST-DET Dataset](https://img.shields.io/badge/Download-LAMOST--DET-brightgreen)](https://pan.baidu.com/s/1Fm2-ZkqaPV48edHWKtS6mg?pwd=v3ms)
+
+
+
 
 # Introduction
 Source detection in modern observational astronomy is a cornerstone for accurately localizing and identifying stellar sources. It is crucial for studies such as stellar population synthesis and cosmological parameter estimation. However, the characteristics of astronomical images, including high density, the effect of point spread functions and low signal-to-noise ratios, significantly challenge the latest advanced object detectors. 
@@ -12,11 +14,15 @@ Extensive experiments on LAMOST-DET show that, Nova Teacher consistently improve
 Additionally, our method competes against other detectors on a natural image dataset, validating its generalization ability to various scenarios.
 
 
-
 ![intro](figs/pipeline.png)
 
+# Dataset
+
+[![LAMOST-DET Dataset](https://img.shields.io/badge/Download-LAMOST--DET-brightgreen)](https://pan.baidu.com/s/1Fm2-ZkqaPV48edHWKtS6mg?pwd=v3ms)
+The LAMOST-DET dataset is now publicly available for download via Baidu Netdisk.
 
 # Training
+
 Code and Config are now available. You could train NovaTeacher with the following command:
 ```
 sh train.sh

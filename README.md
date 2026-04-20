@@ -18,7 +18,7 @@ Additionally, our method competes against other detectors on a natural image dat
 
 # Dataset
 
-[![LAMOST-DET Dataset](https://img.shields.io/badge/Download-LAMOST--DET-brightgreen)](https://pan.baidu.com/s/1Fm2-ZkqaPV48edHWKtS6mg?pwd=v3ms)
+[![LAMOST-DET Dataset](https://img.shields.io/badge/Download-LAMOST--DET-brightgreen)](https://drive.google.com/drive/folders/1vTTP9n_TlXhrdA41MKwp-7MjvFiaf0Ka?usp=sharing)
 The LAMOST-DET dataset is now publicly available for download via Baidu Netdisk.
 
 # Training
